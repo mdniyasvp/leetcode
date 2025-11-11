@@ -1,4 +1,3 @@
-
 select person_name
   from(
     select sum(weight) over(order by turn asc) as total_weight,
